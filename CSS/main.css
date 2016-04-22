@@ -1,0 +1,463 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    top: 0%;
+    padding-top: 6px;
+    padding-bottom: 0px;
+}
+
+.nav a {
+    color: #5a5a5a;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 14px 10px;
+    text-transform: uppercase;
+    text-align: right;
+
+}
+
+.nav li {
+    color: #5a5a5a;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 14px 10px;
+    text-transform: uppercase;
+    text-align: right;
+    display: inline;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.nav li:hover{
+    background-color: #aaaaaa;
+}
+
+.jumbotron {
+    background-image:url('../images/lodging.png');
+    height: 500px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron .container {
+    position: relative;
+    top:200px;
+}
+
+.jumbotron h1 {
+    font-size: 48px;
+    font-family: 'Shift', sans-serif;
+    transform: translate3d(0, 0, 0);
+    /*margin-top: 50px;*/
+    opacity: 1;
+    position: relative;
+    color: #E3E3EB;
+    font-weight: 400;
+    text-align: center;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    border-bottom: 3px solid #E3E3EB;
+    letter-spacing: 10px;
+}
+
+.jumbotron p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.neighborhood-guides {
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.neighborhood-guides h2 {
+    color: #393c3d;
+    font-size: 24px;
+}
+
+.neighborhood-guides p {
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+.back {
+    width: 600px;
+    height: 360px;
+    background: #ccc;
+}
+.abs {
+    position: absolute;
+}
+.block {
+    top: 26px;
+    left: 50px;
+    right: 40px;
+    bottom: 20px;
+    display: none;
+}
+ul.circle {
+    list-style-type:none;
+    top: 284px;
+    left: 98px;
+}
+.pull-left, .pull-right {
+    list-style-type:none;
+    top: 273px;
+    left: 114px;
+}
+
+.icon-menu, .mymagicoverbox {
+    font-size: 24px;
+    display: inline;
+    padding-right: 36px;
+}
+
+ul.circle li {
+    border-radius: 30px;
+    background-color: #fff;
+    border: 2px solid #222;
+    font-size: 28px;
+    padding-right: 56px;
+    padding-top: 24px;
+    margin-right: 10px;
+    display: inline;
+}
+a {
+    text-decoration: none;
+    color: #222;
+    margin-right: 20px;
+}
+a:hover {
+    color: #000;
+}
+a:visited {
+    font-weight: bold;
+}
+.tabs {
+    background: #ededed;
+    font-family: monostace;
+    top: 58px;
+    width: 520px;
+    height: 270px;
+}
+.tabs p {
+    top: 16px;
+    font-family: monostace;
+}
+
+.menuimage {
+    width: 300px;
+}
+
+#HTMLMainButton:hover {
+    background-color:coral;
+    margin-top: -5px;
+    border: 1px solid rgb(200, 200, 200);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    transition: 0.3s;
+}
+
+#CSSMainButton:hover {
+    background-color:deepskyblue;
+    margin-top: -5px;
+    border: 1px solid rgb(200, 200, 200);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    transition: 0.3s;
+}
+
+#JSMainButton:hover {
+    background-color:#97BF0D;
+    margin-top: -5px;
+    border: 1px solid rgb(200, 200, 200);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    transition: 0.3s;
+}
+
+#PHPMainButton:hover {
+    background-color: #84489c;
+    margin-top: -5px;
+    border: 1px solid rgb(200, 200, 200);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    transition: 0.3s;
+}
+
+#MySQLMainButton:hover {
+    background-color: #e48e00;
+    margin-top: -5px;
+    border: 1px solid rgb(200, 200, 200);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    transition: 0.3s;
+}
+
+#HTMLButton:hover {
+    background-color:coral;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    transition: 0.3s;
+}
+
+#CSSButton:hover {
+    background-color:deepskyblue;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    transition: 0.3s;
+}
+
+#JSButton:hover {
+    background-color:#97BF0D;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    transition: 0.3s;
+}
+
+#PHPButton:hover {
+    background-color: #84489c;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    transition: 0.3s;
+}
+
+#MySQLButton:hover {
+    background-color: #e48e00;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    transition: 0.3s;
+}
+
+#NotPublishedArticle{
+    border: groove #d2322d;
+}
+
+#NotPublishedArticle:hover {
+    background-color:#d2322d;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    transition: 0.3s;
+}
+
+#PremoderatedArticle{
+    border: groove #636366;
+}
+
+#PremoderatedArticle:hover {
+    background-color:#636366;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    transition: 0.3s;
+}
+
+#NotPublishedArticleRead{
+    background-color: rgba(210,50,45,0.7);
+}
+
+#NotPublishedArticleRead:hover {
+    background-color:#d2322d;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    transition: 0.3s;
+}
+
+#PremoderatedArticleRead{
+    background-color: rgba(99,99,102,0.7);
+}
+
+#PremoderatedArticleRead:hover {
+    background-color:#636366;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    transition: 0.3s;
+}
+
+#HTMLButtonRead {
+    background-color: rgba(255,127,80,0.7);
+}
+
+#HTMLButtonRead:hover {
+    background-color:coral;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    transition: 0.3s;
+}
+
+#CSSButtonRead {
+    background-color: rgba(0,191,255,0.7);
+}
+
+#CSSButtonRead:hover {
+    background-color:deepskyblue;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    transition: 0.3s;
+}
+
+#JSButtonRead {
+    background-color: rgba(151,191,13,0.7);
+}
+
+#JSButtonRead:hover {
+    background-color:#97BF0D;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    transition: 0.3s;
+}
+
+#PHPButtonRead {
+    background-color: rgba(132,72,156,0.7);
+}
+
+
+#PHPButtonRead:hover {
+    background-color: #84489c;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    transition: 0.3s;
+}
+
+#MySQLButtonRead {
+    background-color: rgba(228,142,0,0.7);
+}
+
+
+#MySQLButtonRead:hover {
+    background-color: #e48e00;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    transition: 0.3s;
+}
+
+.sectionTitle {
+    position: fixed;
+    width: auto;
+    margin-left: 50%;
+    top: 0px;
+    font-family: Roboto;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    color: #E3E3EB;
+    z-index: 1000;
+}
+
+.thummbnail {
+    word-wrap: break-word;
+}
+
+
+
+/* Initial menu */
+.menu {
+    background: #202024 url('../images/black-thread.png') repeat left top;
+    left: -285px;  /* start off behind the scenes */
+    height: 100%;
+    position: fixed;
+    width: 285px;
+    z-index: 1000;
+}
+
+/* Basic styling */
+
+
+.menu ul {
+    border-top: 1px solid #636366;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    border-bottom: 1px solid #636366;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 45px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-top: 3px;
+}
+.menu a {
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.icon-close {
+    cursor: pointer;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.artpreview {
+    position: relative;
+    height: 300px;
+    padding-top: 40px;
+    display: block;
+    word-wrap: break-word;
+    /*word-break: break-all;*/
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+.artpreviewhead {
+    text-align: center;
+    overflow: visible;
+}
+.ArticleWindow {
+    top: 10px;
+    left: -500px;
+    width: 1000px;
+}
+.ProfileWindow {
+    top:100px;
+    left: -500px;
+    width: 1000px;
+    height: 400px;
+}
+.LoginWindow {
+    top:100px;
+    left: -35%;
+    width: 70%;
+}
+.RegisterWindow {
+    top:100px;
+    left: -350px;
+    width: 700px;
+}
+
+.ReadArticle {
+    background-color: #00b0ff;
+}
+
+.StaticticsTable td {
+    padding: 5px;
+    color: #ffffff;
+}
+.messageBox {
+    position: relative;
+    overflow:auto;
+    font-weight:400;
+    font-family:'Roboto';
+    font-size:20px;
+    height: 400px;
+}
+.singleMessageBox{
+    display:block;
+    color:#000000;
+    cursor:pointer;
+    font-weight:300;
+    font-family:'Roboto';
+}
+.messagehead {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ffffff;
+}
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+.rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+    content: "\2605";
+    position: absolute;
+    color: rgb(200, 203, 20);
+}

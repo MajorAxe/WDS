@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7d467e56-5666-4fe5-9ed6-d1bc50b4b815" name="WDSHostinger" url="http://31.220.16.240">
+        <fileTransfer host="31.220.16.240" port="21" rootFolder="/public_html" password="dffddfdbdf9adfdbdfc2dff3dff3df99dfc5dfd0" username="u740204175">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

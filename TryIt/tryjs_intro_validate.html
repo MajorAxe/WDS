@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript может проверять корректность вводимых данных</h1>
+
+<p>Введите число от 1 до 10:</p>
+
+<input id="numb" type="number">
+
+<button type="button" onclick="myFunction()">Отправить</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x, text;
+
+    // Получить значение поля ввода с id="numb"
+    x = document.getElementById("numb").value;
+
+    // Если x не число, или меньше 1, или больше 10
+    if (isNaN(x) || x < 1 || x > 10) {
+        text = "Ввод не корректен";
+    } else {
+        text = "Ввод в порядке";
+    }
+    document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html> 
